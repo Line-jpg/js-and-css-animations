@@ -1,0 +1,88 @@
+/* Centrér hele indholdet på siden */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Tilføjet: Fjerner standard browser margins */
+}
+
+/* En container til alle regnestykker */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Tilføjet: Centrér billede-containeren */
+#animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Hver "gruppe" af inputs og knap */
+.calc-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; /* Tilføjet: Giver knapperne fuld bredde til centrering */
+}
+
+/* Inputfelter og knapper */
+input[type="number"],
+input[type="text"] {
+    width: 120px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Separator */
+hr {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    display: block;
+    /* Tilføj denne linje transition */
+}
+
+
+/* opret selektor .anim-skew */
+
+/* opret selektor .anim-rotate */
+
+/* opret selektor .anim-flip */
+
+/* opret selektor .anim-scale */
